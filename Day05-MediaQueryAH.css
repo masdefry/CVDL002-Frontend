@@ -1,0 +1,58 @@
+/* Desktop */
+body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbarContainer{
+    background-color:orange;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.iconMenu{
+    display: none;
+}
+
+.leftNavbar{
+    display: none;
+}
+
+.logoNavbar{
+    text-align: left; 
+}
+
+/* Tablet */
+/* Apakah layar kita kurang dari sama dengan 768 */
+@media only screen and (max-width: 768px) {
+    .iconMenu{
+        display: none;
+    }
+
+    .logoNavbar{
+        text-align: left; 
+    }
+}
+
+/* Mobile */
+/* Apakah layar kita kurang dari sama dengan 600 */
+@media only screen and (max-width: 600px) {
+    .iconMenu{
+        display: block;
+    }
+
+    .navbarMenu{
+        display: none;
+    }
+
+    .leftNavbar{
+        display: block;
+    }
+
+    .logoNavbar{
+        text-align: center; 
+    }
+}
