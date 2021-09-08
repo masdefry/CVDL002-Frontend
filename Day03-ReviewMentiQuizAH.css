@@ -1,0 +1,29 @@
+.color-1{
+    background-color: tomato;
+}
+
+#color-2{
+    background-color: teal;
+}
+
+h4{
+    background-color: cornflowerblue;
+}
+
+.color-3{
+    background-color: darkgoldenrod !important;
+}
+
+#wrapper .color-4{
+    background-color: darkgreen;
+}
+
+.styling-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.styling-2{
+    margin: 15px 5px 20px 10px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Chalenge AH</title>
+</head>
+<style>
+    /* vh ---> view height */
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .box-container{
+        background-color: coral;
+        height: 300px; 
+        display: flex;
+    }
+
+    .box-1{
+        background-color: brown;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-2{
+        background-color: darkblue;
+        flex: 3;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .box-3{
+        background-color: darkorange;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-container-2{
+        background-color: silver;
+        height: 50vh;
+    }
+
+    .box-4{
+        height: 40%;
+        background-color: slateblue;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .box-5{
+        height: 20%;
+        background-color: tomato;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .box-6{
+        height: 40%;
+        background-color:teal;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+</style>
+<body>
+    <h1>
+        Chalenge-1
+    </h1>
+    <div class="box-container"> 
+        <div class="box-1">
+            Box-1
+        </div>
+        <div class="box-2">
+            Box-2
+        </div>
+        <div class="box-3">
+            Box-3
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <h1>Chalenge-2</h1>
+    <div class="box-container-2">
+        <div class="box-4">
+            Box-4
+        </div>
+        <div class="box-5">
+            Box-5
+        </div>
+        <div class="box-6">
+            Box-6
+        </div>
+    </div>
+</body>
+</html>

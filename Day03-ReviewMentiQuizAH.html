@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Day03-ReviewMentiQuizAH.css">
+    <style>
+        p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <hr style="border: 3px solid tomato;">
+    <p style="border: 3px solid blue;">
+        Purwadhika Digital School
+    </p>
+
+    <input type="text" placeholder="Enter your name">
+    <input type="password" placeholder="Enter your password">
+
+    <br>
+
+    <input type="text" id="input-1">
+    <input type="text" id="input-1">
+    <input type="button" value="Submit" onclick="Submit()">
+
+    <script>
+        function Submit(){
+            console.log(document.getElementById("input-1").value)
+        }
+    </script>
+
+    <br>
+
+    <p>
+        Purwadhika Digital School
+    </p>
+    <hr />
+    <p>
+        Javascript
+    </p>
+
+    <br>
+
+    <h1>
+        Spesificity <br>
+        !Important < Inline Styling < Id  < Class < Tag/Selector <br>
+        10000      < 1000           < 100 < 10    < 1
+    </h1>
+    <hr>
+
+    <h3 id="color-2" class="color-1">
+        Specificity-1: Id vs. Class ---> Id
+    </h3>
+
+    <h4 class="color-1">
+        Specificity-2: Class vs. Tag/Selector ---> Class
+    </h4>
+
+    <h3 id="color-2" class="color-3">
+        Spesificity-3: Id vs. Class + !Important ---> Class & !Important
+    </h3>
+
+    <div class="color-1">
+        <div id="color-2">
+            Spesificity-4
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <div id="color-2" class="color-4">
+            Spesificity-5
+        </div>
+    </div>
+
+    <hr>
+
+    <span>
+        A
+    </span>
+    <span>
+        B
+    </span>
+    <button>
+        Submit
+    </button>
+</body>
+</html>

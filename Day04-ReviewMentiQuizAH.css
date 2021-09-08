@@ -1,0 +1,65 @@
+div{
+    color: blueviolet;
+}
+
+.primary > div > div{
+    color: teal;
+}
+
+#pseudoSelector{
+    color: steelblue;
+    transition: 1s;
+    border: 1px solid black;
+}
+
+#pseudoSelector:hover{
+    color: tomato;
+    font-size: 20px;
+}
+
+#linkVisited{
+    font-size: 30px;
+    color: green;
+}
+
+#linkVisited:visited{
+    color: crimson;
+}
+
+.posAbsolute{
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    position: absolute;
+    top: 30px;
+}
+
+.posRel1{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+
+.posRel2{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    position: relative;
+    top: 50px;
+}
+
+.posFixed{
+    width: 150px;
+    height: 150px;
+    background-color:teal;
+    position: fixed;
+    top: 0px;
+}
+
+.posSticky{
+    width: 150px;
+    height: 150px;
+    background-color:tomato;
+    position: sticky;
+    top: 0px;
+}

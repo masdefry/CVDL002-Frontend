@@ -1,0 +1,15 @@
+.spec-1{
+    color:slateblue;
+}
+
+#spec-1{
+    color: tomato;
+}
+
+.wrapper-1{
+    color: royalblue;
+}
+
+.wrapper-2 .spec-2{
+    color: seagreen;
+}

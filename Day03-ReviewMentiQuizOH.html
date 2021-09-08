@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Day03-ReviewMentiQuizOH.css" />
+</head>
+<body>
+    <input type="text" placeholder="Enter your name">
+    <input type="password" placeholder="Enter your password">
+
+    <br><br></br>
+
+    <h1>
+        Spesificity
+    </h1>
+    <h3>
+        !Important < Inline Styling < Id  < Class < Tag
+    </h3><h3>
+        10000      < 1000           < 100 < 10    < 1
+    </h3>
+
+    <p id="spec-1" class="spec-1">
+        Specificity-1: Id vs. Class ---> Id
+    </p>
+
+    <p id="spec-1" class="spec-1" style="color: sandybrown;">
+        Specificity-2: Inline Styling vs. Id vs. Class ---> Inline Styling
+    </p>
+
+    <div class="wrapper-1">
+        <div id="spec-1">
+            Specificity-3
+        </div>
+    </div>
+
+    <div class="wrapper-2">
+        <div id="spec-1" class="spec-2">
+            Specificity-4
+        </div>
+    </div>
+</body>
+</html>

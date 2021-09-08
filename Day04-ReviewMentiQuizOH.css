@@ -1,0 +1,57 @@
+div{
+    color: blueviolet;
+}
+
+.primary > div > div{
+    color: teal;
+}
+
+/* ########## */
+
+/* h3{
+    background-color: cornflowerblue;
+} */
+
+.classSelector{
+    background-color: darkkhaki;
+}
+
+#idSelector{
+    background-color: darksalmon;
+}
+
+#pseudoSelector{
+    color: dodgerblue;
+    transition: 1s;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#pseudoSelector:hover{
+    color: goldenrod;
+}
+
+#aVisited{
+    color: darkorange;
+}
+
+#aVisited:visited{
+    color: black;
+}
+
+.posFixed{
+    width: 150px;
+    height: 150px;
+    background-color: darkred;
+    position: fixed;
+    top: 0px;
+}
+
+.posSticky{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: sticky;
+    top: 0px;
+}

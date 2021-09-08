@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Chalenge OH</title>
+</head>
+<style>
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .box-container{
+        display: flex;
+    }
+
+    .box-1{
+        background-color: brown;
+        flex: 1;
+    }
+
+    .box-2{
+        background-color: burlywood;
+        flex: 3;
+    }
+
+    .box-3{
+        background-color: coral;
+        flex: 1;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .jumbotron{
+        background-color: coral;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+    <!-- 
+        <div> Merupakan Block Element. Block ELement Memiliki Lebar 100% & Tinggi Sesuai Konten
+     -->
+    <div class="box-container">
+        <div class="box-1"> 
+            <h3>Box-1</h3>
+        </div>
+        <div class="box-2">
+            <h3>Box-2</h3>
+        </div>
+        <div class="box-3">
+            <h3>Box-3</h3>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="jumbotron">
+        <div style="width: 100px; height: 100px; border: 1px solid black; display: flex; justify-content: flex-end; align-items: flex-end;">
+            <h2 style="margin: 0px; padding: 0px;">
+                Box-1
+            </h2>
+        </div>
+        <div style="width: 100px; height: 100px; border: 1px solid black;">
+            <h2>
+                Box-2
+            </h2>
+        </div>
+        <div style="width: 100px; height: 100px; border: 1px solid black;">
+            <h2>
+                Box-3
+            </h2>
+        </div>
+    </div>
+</body>
+</html>
