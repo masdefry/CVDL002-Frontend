@@ -1,0 +1,55 @@
+/* Desktop */
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbarContainer{
+    background-color: tomato;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menuIcon{
+    display: none;
+}
+
+.leftNavbar{
+    display: none;
+}
+
+.logoNavbar{
+    text-align: left;
+}
+
+/* Tablet */
+/* Apakah layar saya kurang dari sama dengan 768px? */
+@media only screen and (max-width: 768px) { 
+    .menuIcon{
+        display: none;
+    }
+}
+
+/* Mobile */
+/* Apakah layar saya kurang dari sama dengan 600px */
+@media only screen and (max-width: 600px) {
+    .menuIcon{
+        display: block;
+    }
+
+    .menuNavbar{
+        display: none;
+    }
+
+    .leftNavbar{
+        display: block;
+    }
+
+    .logoNavbar{
+        text-align: center;
+    }
+}
