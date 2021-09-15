@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day07-Exercise1OH</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<style>
+			/* Desktop */
+			.w-box{
+				width: 50%;
+			}
+
+			@media only screen and (max-width: 768px) {
+				/* Tablet */
+				.w-box{
+					width: 100%;
+				}
+      }
+			@media only screen and (max-width: 576px) {
+				/* Phone */
+				.w-box{
+					width: 100%;
+				}
+      }
+		</style>
+</head>
+<body>
+	<!-- Layouting-1 -->
+    <!-- <div class="bg-primary py-4">
+    </div>
+		<div class="container">
+			<div class="row">
+				<div class="col-3 pt-2 pr-2 pb-2 pl-0" style="height: 350px;">
+					<div class="p-5" style="height: 100%; border: 1px solid red;">
+						<div class="bg-secondary p-5">
+
+						</div>
+						<div class="container">
+							<div class="row justify-content-between mt-3">
+								<div class="col-5 border border-primary text-center">1</div>
+								<div class="col-5 border border-primary text-center">2</div>
+								<div class="col-12 border border-primary text-center mt-3">3</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+		<!-- Layouting-2 -->
+		<div class="row m-0">
+			<div class="col-sm-6 col-md-4 border border-secondary">
+				<div class="d-flex flex-column border border-danger">
+					<div class="bg-primary align-self-end w-box" style="height: 200px;">BoxBiru</div>
+					<div class="bg-warning w-box" style="height: 200px;">BoxKuning</div>
+					<div class="bg-primary align-self-end w-box" style="height: 200px;">BoxBiru</div>
+				</div>
+			</div>
+
+			<div class="d-none d-sm-none d-md-block col-md-4 border border-secondary">
+				<div class="d-flex align-items-center" style="height: 100%;">
+					<div class="bg-success" style="width: 100%; height: 300px;">
+
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4 border border-secondary">
+				<div class="d-flex flex-column border border-danger">
+					<div class="bg-warning w-box" style="height: 200px;">BoxKuning</div>
+					<div class="bg-primary align-self-end w-box" style="height: 200px;">BoxBiru</div>
+					<div class="bg-warning w-box" style="height: 200px;">BoxKuning</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
