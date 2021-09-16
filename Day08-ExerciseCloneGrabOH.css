@@ -11,6 +11,10 @@ body {
     padding: 20px 185px;
 }
 
+.paddingContent{
+    padding: 20px 185px;
+}
+
 @media only screen and (max-width: 767px) {
     /* Mobile & Tablet */
     .paddingNavbarKonten{

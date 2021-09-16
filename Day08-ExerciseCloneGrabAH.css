@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paddingNavbar{
+    padding: 0px 100px;
+}
+
+@media only screen and (max-width: 767px) {
+    /* Mobile & Tablet */
+    .paddingNavbar{
+        padding: 0px 30px;
+    }
+
+    .hideMenuDropdown{
+        display: none !important;
+    }
+
+    .iconSearch{
+        text-align: end;
+    }
+  }
