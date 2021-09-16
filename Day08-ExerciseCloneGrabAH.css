@@ -7,6 +7,18 @@ body {
     padding: 0px 100px;
 }
 
+.paddingJumbotron{
+    padding: 20px 180px;
+}
+
+.textJumbotron{
+    font-size: 65px; 
+}
+
+.paddingContent1{
+    padding: 20px 180px;
+}
+
 @media only screen and (max-width: 767px) {
     /* Mobile & Tablet */
     .paddingNavbar{
@@ -19,5 +31,13 @@ body {
 
     .iconSearch{
         text-align: end;
+    }
+
+    .paddingJumbotron{
+        padding: 20px 30px;
+    }
+
+    .textJumbotron{
+        font-size: 40px; 
     }
   }
