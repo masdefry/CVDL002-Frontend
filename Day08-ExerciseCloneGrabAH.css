@@ -19,6 +19,14 @@ body {
     padding: 20px 180px;
 }
 
+.paddingContent2{
+    padding: 20px 180px;
+}
+
+.widthCard{
+    width: 23%;
+}
+
 @media only screen and (max-width: 767px) {
     /* Mobile & Tablet */
     .paddingNavbar{
@@ -39,5 +47,13 @@ body {
 
     .textJumbotron{
         font-size: 40px; 
+    }
+
+    .paddingContent2{
+        padding: 20px 30px;
+    }
+
+    .widthCard{
+        width: 43%;
     }
   }
